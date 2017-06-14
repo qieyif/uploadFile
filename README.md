@@ -9,7 +9,7 @@
 ###### html
 ``` xml 
 <body>
-	 <input type="file" name="upfile" id="upfile"/>
+     <input type="file" name="upfile" id="upfile"/>
      <input id="uploadBtn" type="submit" value="开始上传" />
      
      //引入jquery库
@@ -20,7 +20,7 @@
 ```
 ###### js
 ```js
-	var url = "http://192.168.100.151:7001/GDPaymentCenterServer_FromService/UploadFileServlet.do";
+    var url = "http://192.168.100.151:7001/GDPaymentCenterServer_FromService/UploadFileServlet.do";
     
     $('#uploadBtn').on('tap', function(){
     
